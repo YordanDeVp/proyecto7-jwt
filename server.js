@@ -49,6 +49,7 @@ async function initial() {
 }
 
 app.get("/", (req, res) => {
+  console.log('Este es el Despliege para el Laboratorio de la semana 08');
   res.json({ message: "Welcome to the Node.js JWT Authentication API." });
 });
 
